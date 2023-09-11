@@ -12,7 +12,7 @@ int main(void)
 	for (c = '0'; c <= '9'; c++)
 	{
 	  for (i = c + 1; i <= '9'; i++)
-	    {
+	  {
 	      putchar(c);
 	      putchar(i);
 	      if (c != '8' || (c == '8' && i != '9'))
@@ -20,7 +20,7 @@ int main(void)
 		  putchar(',');
 		  putchar(' ');
 		}
-	    }
+	  }
 	}
 
 	putchar('\n');
