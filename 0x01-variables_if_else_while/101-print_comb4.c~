@@ -1,0 +1,13 @@
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
+(setq indent-line-function 'insert-tab)
+#include <stdio.h>
+
+/**
+  * main - Prints 3 combination of numbers
+  *
+  * Return: Always (Success)
+  */
+int main(void)
+{
+  
