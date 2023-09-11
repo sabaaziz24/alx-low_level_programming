@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/**
-  * main - Prints 3 combination of numbers
-  *
-  * Return: Always (Success)
+/**                                                                                                                                                                     
+  * main - Prints 3 combination of numbers                                                                                                                              
+  *                                                                                                                                                                     
+  * Return: Always (Success)                                                                                                                                            
   */
 int main(void)
 {
@@ -20,10 +20,10 @@ int main(void)
 				putchar(k);
 
 				if (i != '7')
-					{
-						putchar(',');
-						putchar(' ');
-					}
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
