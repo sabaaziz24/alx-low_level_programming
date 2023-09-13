@@ -1,17 +1,20 @@
 #include "main.h"
 
 /**
-* print_alphabet - xx
-*
-* return: coid
-*/
+ * print_alphabet - Entry point
+ * Return:0
+ */
+
 void print_alphabet(void)
 {
-        char a;
-        for (a = 'a'; a <= 'z'; a++)
-        {
-                _putchar(a);
-        }
+	char c = 'a';
 
-        _putchar('\n');
+	while (c <= 'z')
+	{
+		_putchar(c);
+		c++;
+
+	}
+	_putchar('\n');
+
 }
