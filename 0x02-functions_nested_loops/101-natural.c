@@ -13,12 +13,12 @@ int main(void)
 	{
 		if (i%3 == 0)
 		{
-			ans += i
+			ans += i;
 		}
 
 		else if (i % 5 == 0)
 		{
-			ans += i
+			ans += i;
 		}
 	}
 
