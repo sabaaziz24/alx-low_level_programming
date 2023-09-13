@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
 * main - xx
 *
 * return: yy
