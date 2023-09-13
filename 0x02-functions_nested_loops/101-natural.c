@@ -4,14 +4,15 @@
 /**
 * main - xx
 *
-* return: coid
+* Return: coid
 */
 int main(void)
 {
 	int i, ans;
+
 	for (i = 1; i < 1024; i++)
 	{
-		if (i%3 == 0)
+		if (i % 3 == 0)
 		{
 			ans += i;
 		}
@@ -22,6 +23,6 @@ int main(void)
 		}
 	}
 
-	printf("%d\n", ans);
+	printf ("%d\n", ans);
 	return(0);
 }
