@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* int mul - xx
+* print_numbers - xx
 *
 * Return: coidss
 */
@@ -15,6 +15,4 @@ void print_numbers(void)
 	}
 
 	_putchar('\n');
-
-	return;
 }
