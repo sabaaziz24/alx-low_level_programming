@@ -2,7 +2,7 @@
 
 /**
 * print_diagonal - xx
-*
+* @n: ff
 * Return: coidss
 */
 void print_diagonal(int n)
