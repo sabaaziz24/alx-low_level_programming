@@ -3,7 +3,7 @@
 
 /**
 * reset_to_98 - xx
-* @*n: sjb
+* @n: sjb
 * Return: coidss
 */
 void reset_to_98(int *n)
