@@ -22,6 +22,8 @@ int _atoi(char *s)
 		else if (!((s[i] == '+' || s[i] == ' ') && fir == 0))
 			break;
 
+		i++;
+
 	}
 
 	return (ans);
