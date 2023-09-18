@@ -25,7 +25,7 @@ int _atoi(char *s)
 		i++;
 
 	}
-	if (d % 2)
+	if (n % 2)
 		return (-ans);
 
 	return (ans);
