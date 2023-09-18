@@ -19,7 +19,7 @@ int _atoi(char *s)
 			ans = 10 * ans + tmp;
 			fir = 1;
 		}
-		else if (!((s[i] == '+' || s[i] == ' ') && fir == 0))
+		else if (fir)
 			break;
 
 		i++;
