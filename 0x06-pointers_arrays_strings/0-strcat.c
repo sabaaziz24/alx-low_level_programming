@@ -2,7 +2,7 @@
 #include "stdio.h"
 
 /**
- * *_strcat - aa
+ * _strcat - aa
  * @dest: ss
  * @src: zz
  * Return: wahr
