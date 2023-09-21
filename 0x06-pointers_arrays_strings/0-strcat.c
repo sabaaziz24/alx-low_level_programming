@@ -3,13 +3,13 @@
 
 /**
  * *_strcat - aa
- * @*dest: ss
- * @*src: zz
+ * @dest: ss
+ * @src: zz
  * Return: wahr
  */
 char *_strcat(char *dest, char *src)
 {
-	int n1 = 0, n2 = 0, i, j=0;
+	int n1 = 0, n2 = 0, j = 0; i;
 
 	while (src[n1] != '\0')
 		n1++;
@@ -24,5 +24,7 @@ char *_strcat(char *dest, char *src)
 	}
 
 	dest[i] = '\0';
+
 	return (dest);
 }
+
