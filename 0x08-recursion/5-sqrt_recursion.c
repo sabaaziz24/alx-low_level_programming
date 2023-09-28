@@ -1,34 +1,36 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - xx
- * @n: xx
- *
- * Return: string length
+ * _sqrt - xx
+ * @prev: xx
+ * @root: xx
+ * Return: xx
  */
-int num, prev, start = 1;
-
-int _sqrt_recursion(int n)
+int _sqrt(int prev, int root)
 {
-	if (start || (n - prev != -1))
-	{
-		num = n;
-		start = 0;
-	}
-	if (n > 0)
-	{
-		if (n * n == num)
-		{
-			return (n);
-		}
-		else
-		{
-			prev = n;
-			return  _sqrt_recursion(n - 1);
-		}
-	}
-	else
+	if (prev > root)
 	{
 		return (-1);
 	}
+	else if (prev * prev == root)
+	{
+		return (prev);
+	}
+
+	return (_sqrt(prev + 1, root));
+}
+
+/**
+ * _sqrt_recursion - xx
+ * @n: xx
+ * Return: xx
+ */
+int _sqrt_recursion(int n)
+{
+	if (n < 0)
+	{
+		return (-1);
+	}
+
+	return (_sqrt(1, n));
 }
