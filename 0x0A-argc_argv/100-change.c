@@ -10,51 +10,27 @@
  */
 int main(int argc, char *argv[])
 {
-	int num, sum = 0;
+	int num, j, result = 0;
+	int coins[] = {25, 10, 5, 2, 1};
 
 	if (argc != 2)
 	{
-		printf("%s\n", "Error");
+		printf("Error\n");
 		return (1);
 	}
 
 	num = atoi(argv[1]);
-
 	if (num < 0)
 	{
-		printf("%d\n", 0);
+		printf("0\n");
 		return (0);
 	}
-
-	while (num > 0)
+	for (j = 0; j < 5 && num >= 0; j++)
 	{
-		if (num >= 25)
-		{
-			sum += num / 25;
-			num = num % 25;
-		}
-		else if (num >= 10)
-		{
-			sum += num / 10;
-			num = num % 10;
-		}
-		else if (num >= 5)
-		{
-			sum += num / 5;
-			num = num % 5;
-		}
-		else if (num >= 2)
-		{
-			sum += num / 2;
-			num = num % 2;
-		}
-		else
-		{
-			sum += num;
-			num = 0;
-		}
+		result += num / coins[j];
+		num = num % coins[j];
 	}
 
-	printf("%d\n", sum);
+	printf("%d\n", result);
 	return (0);
 }
