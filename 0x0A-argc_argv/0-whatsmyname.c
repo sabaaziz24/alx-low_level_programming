@@ -1,15 +1,14 @@
 #include "main.h"
-#include <stdlib.h>
+#include <stdio.h>
+
 /**
-  * main - cc
-  * @argc: cc
-  * @argv: cc
-  *
-  *Return: cc
-  */
+ * main - this is a function to print its name
+ * @argc: argc parameter
+ * @argv: an array of a command listed
+ * Return: 0 for success
+ */
 int main(int argc __attribute__((unused)), char *argv[])
 {
-	printf("%s\n", argv[0]);
-
+	printf("%s\n", *argv);
 	return (0);
 }
