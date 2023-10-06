@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
   * main - cc
-  *@argc: cc
-  *@argv: cc
+  * @argc: cc
+  * @argv: cc
   *
   *Return: cc
   */
